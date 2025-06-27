@@ -22,6 +22,9 @@
 			// Make a pause to allow the user to read the welcome message.
 			Console.WriteLine("Press any key to continue...");
 			Console.ReadKey();
+
+			// Start the vending machine application.
+			_ = new Machine();
 		}
 	}
 }
